@@ -16,6 +16,8 @@ CostcoMember::CostcoMember(string name, string number, Kind kind): mName(name), 
     
 }
 
+// Get methods
+
 string CostcoMember::getName() const {
     return (mName);
 }
@@ -31,6 +33,8 @@ CostcoMember::Kind CostcoMember::getKind() const{
 int CostcoMember::getTripCount() const{
     return (mTripCount);
 }
+
+// Other methods
 
 void CostcoMember::incrementTripCount(){
     mTripCount++;
